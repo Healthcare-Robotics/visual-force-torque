@@ -2,7 +2,7 @@
 Estimating the forces and torques applied to a soft robotic gripper using a gripper-mounted camera.
 
 ## Setup
-### Force-Torque Sensor ([ATI Mini45](https://www.ati-ia.com/products/ft/ft_models.aspx?id=mini45)
+### Force-Torque Sensor ([ATI Mini45](https://www.ati-ia.com/products/ft/ft_models.aspx?id=mini45))
 - In network settings, Set IPv4 Method to manual
 - Set IPv4 address to 192.168.1.100 and IPv4 netmask to 255.255.255.0
 - Go to 192.168.1.1 in browser
