@@ -1,0 +1,18 @@
+name: rp_ft
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+  - menpo
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - numpy
+  - matplotlib
+  - cudatoolkit=11.4
+  - pyzmq
+
+prefix: /media/jer/virtual_envs/miniconda3/envs/rp_ft
