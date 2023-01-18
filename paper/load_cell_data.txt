@@ -1,0 +1,371 @@
+FT prediction: [-0.543067 -1.054853  1.194498  0.070878  0.095668 -0.002637]
+FT ground truth: [-0.793166 -0.077211 -0.332262  0.010693 -0.211863 -0.002324]
+predicted force mag (N): 1.683586
+ground truth force mag (N): 0.86340714
+load cell data (N): 0.996
+
+FT prediction: [-0.549256 -1.336347  1.164256  0.079851  0.097334 -0.007882]
+FT ground truth: [-0.870738 -0.076765 -0.317526  0.006325 -0.229271 -0.003108]
+predicted force mag (N): 1.8555316
+ground truth force mag (N): 0.9300002
+load cell data (N): 1.009
+
+FT prediction: [-0.629946 -1.361783  1.09786   0.071329  0.116198 -0.015003]
+FT ground truth: [-0.863085 -0.13816  -0.055466  0.011149 -0.22449  -0.0062  ]
+predicted force mag (N): 1.8591883
+ground truth force mag (N): 0.87583125
+load cell data (N): 0.996
+
+FT prediction: [-5.370110e-01 -1.317028e+00  1.044462e+00  8.573500e-02  9.547300e-02
+  1.127000e-03]
+FT ground truth: [-0.745424 -0.191612 -0.585468  0.013207 -0.192606 -0.003167]
+predicted force mag (N): 1.7646089
+ground truth force mag (N): 0.96702886
+load cell data (N): 0.992
+
+FT prediction: [-0.577334 -1.334524  0.997772  0.083751  0.102377 -0.001529]
+FT ground truth: [-0.835144 -0.211145 -0.310895  0.013506 -0.21748  -0.005836]
+predicted force mag (N): 1.7634676
+ground truth force mag (N): 0.9158075
+load cell data (N): 1.008
+
+FT prediction: [-5.061510e-01 -1.342338e+00  9.954640e-01  9.541700e-02  9.236700e-02
+ -1.305000e-03]
+FT ground truth: [-0.829832 -0.191135 -0.4335    0.011266 -0.217591 -0.00407 ]
+predicted force mag (N): 1.7461411
+ground truth force mag (N): 0.9555501
+load cell data (N): 1.004
+
+FT prediction: [-0.391205 -1.156734  0.996466  0.038893  0.081827 -0.011441]
+FT ground truth: [-0.822408 -0.132229 -0.172464  0.011869 -0.209409 -0.003691]
+predicted force mag (N): 1.5760772
+ground truth force mag (N): 0.85063696
+load cell data (N): 0.991
+
+--------------------------------------------------------------------------------
+
+Nothing
+
+FT prediction: [-0.588405 -1.023816  1.268215  0.053089  0.141535 -0.012605]
+FT ground truth: [-1.037706 -0.157465 -0.43768   0.003562 -0.259844 -0.003971]
+predicted force mag (N): 1.7328557
+ground truth force mag (N): 1.1371863
+load cell data (N): 0.998
+
+
+Plate
+
+FT prediction: [-0.289728 -0.073514  0.966369 -0.04467   0.156578  0.08896 ]
+FT ground truth: [-1.587667e+00 -1.907620e-01 -1.114462e+00 -1.336300e-02 -3.939220e-01
+  7.570000e-04]
+predicted force mag (N): 1.0115412
+ground truth force mag (N): 1.9491285
+load cell data (N): 1.005
+
+Rag
+
+FT prediction: [-0.334119 -0.878629  1.259145  0.066212  0.106694  0.048356]
+FT ground truth: [-7.87684e-01 -1.53889e-01 -2.96038e-01 -2.69200e-03 -1.82238e-01
+ -1.00000e-05]
+predicted force mag (N): 1.5713277
+ground truth force mag (N): 0.85543346
+load cell data (N): 0.998
+
+Wood/foam block
+
+FT prediction: [-0.518628 -1.162496  0.970699  0.001693  0.106644 -0.022913]
+FT ground truth: [-0.691887 -0.213752 -0.350286  0.014009 -0.157786 -0.003263]
+predicted force mag (N): 1.6008213
+ground truth force mag (N): 0.8044239
+load cell data (N): 0.995
+
+--------------------------------------------------------------------------------
+
+Nothing
+
+FT prediction: [-0.130254 -0.666646  0.785413 -0.002143  0.180417  0.055511]
+FT ground truth: [-0.829138 -0.089355 -0.12841   0.015338 -0.206442 -0.005693]
+predicted force mag (N): 1.0383914
+ground truth force mag (N): 0.8437673
+load cell data (N): 1.004
+
+Plate
+
+
+FT prediction: [-0.136674 -0.135319  0.903029 -0.034003  0.157963  0.021469]
+FT ground truth: [-0.795986 -0.109671 -0.237731  0.0227   -0.182623 -0.005663]
+predicted force mag (N): 0.92328346
+ground truth force mag (N): 0.83793646
+load cell data (N): 0.999
+
+--------------------------------------------------------------------------------
+45 DEG PITCH AND ROLL
+
+Nothing
+
+FT prediction: [ 0.0403471  -0.15025803 -0.09642601  0.165145    0.06701    -0.01644   ]
+FT ground truth: [-0.35102105 -0.25317502 -1.0771329   0.049687   -0.088373    0.00396   ]
+predicted force mag (N): 0.18303919
+ground truth force mag (N): 1.1608311
+load cell data (N): 1.004
+
+Plate
+
+FT prediction: [-0.29572892  0.22486302  0.075791    0.088806    0.009086    0.076655  ]
+FT ground truth: [-0.43079805 -0.348454   -1.396754    0.065829   -0.12151     0.004639  ]
+predicted force mag (N): 0.37916124
+ground truth force mag (N): 1.5026406
+load cell data (N): 0.992
+
+Rag
+
+FT prediction: [-0.62423706 -0.17333394 -0.35172695  0.12623599 -0.050671    0.031759  ]
+FT ground truth: [-0.38116002 -0.28015804 -0.91522     0.061499   -0.10224     0.001424  ]
+predicted force mag (N): 0.737176
+ground truth force mag (N): 1.0302423
+load cell data (N): 1.005
+
+Wood/foam block
+
+FT prediction: [-0.88514006 -0.431422   -0.831684    0.145992   -0.010761   -0.013798  ]
+FT ground truth: [-0.34615898 -0.32219398 -0.8235259   0.070733   -0.101781    0.003364  ]
+predicted force mag (N): 1.2889128
+ground truth force mag (N): 0.9496473
+load cell data (N): 1.007
+
+Metal plate
+
+FT prediction: [-0.3651421  0.330339  -0.581637   0.083553   0.015055  -0.049219 ]
+FT ground truth: [-0.445233   -0.31943905 -0.922439    0.07040299 -0.123827    0.004397  ]
+predicted force mag (N): 0.7620724
+ground truth force mag (N): 1.0729247
+load cell data (N): 0.996
+
+Nothing
+
+FT prediction: [-0.16168499 -0.117679   -0.18014598  0.180603    0.06245899  0.01822   ]
+FT ground truth: [-0.6260359  -0.522514   -1.8363211   0.121631   -0.18335801  0.006256  ]
+predicted force mag (N): 0.26915228
+ground truth force mag (N): 2.009233
+load cell data (N): 1.996
+
+Plate
+
+FT prediction: [-0.20561218  0.107063    0.31910205  0.006444    0.11689599  0.05292   ]
+FT ground truth: [-0.5908979  -0.4208001  -1.944262    0.093649   -0.17385301  0.006459  ]
+predicted force mag (N): 0.39441726
+ground truth force mag (N): 2.0751839
+load cell data (N): 2.01
+
+Rag
+FT prediction: [-0.3511579  -0.21413594 -0.38344598  0.16270399 -0.001903    0.088921  ]
+FT ground truth: [-0.5626731  -0.50120306 -1.979154    0.11108801 -0.16588901  0.008987  ]
+predicted force mag (N): 0.56231385
+ground truth force mag (N): 2.1177478
+load cell data (N): 2.001
+
+Block
+
+FT prediction: [-1.3061869  -0.520888   -0.42292997  0.25006098 -0.10252799 -0.031992  ]
+FT ground truth: [-0.68010294 -0.670651   -1.8244979   0.160348   -0.20512402  0.006141  ]
+predicted force mag (N): 1.4684408
+ground truth force mag (N): 2.0593944
+load cell data (N): 2.004
+
+Metal plate
+
+FT prediction: [-0.49294686  0.00978297  0.09288812  0.190792    0.03557801  0.030062  ]
+FT ground truth: [-0.787107   -0.63168    -1.9299312   0.148907   -0.23110601  0.00816   ]
+predicted force mag (N): 0.50171757
+ground truth force mag (N): 2.177887
+load cell data (N): 1.999
+
+Nothing
+
+FT prediction: [-1.8807701   0.03527105 -1.125074    0.154304   -0.26467702 -0.038455  ]
+FT ground truth: [-1.241998  -1.2644551 -3.045322   0.290393  -0.395305   0.010725 ]
+predicted force mag (N): 2.1918786
+ground truth force mag (N): 3.5235481
+load cell data (N): 4.0
+
+Plate
+
+FT prediction: [-0.26221895  0.26630402 -0.4040941   0.143003   -0.04794    -0.0379    ]
+FT ground truth: [-1.082683   -1.0757921  -3.037787    0.239775   -0.33692902  0.009988  ]
+predicted force mag (N): 0.5504258
+ground truth force mag (N): 3.399659
+load cell data (N): 4.005
+
+Rag
+FT prediction: [-1.0300629  -0.091425   -1.711991    0.229424   -0.11347701 -0.006315  ]
+FT ground truth: [-0.993461   -0.91030097 -2.6369271   0.194472   -0.293368    0.009992  ]
+predicted force mag (N): 2.000075
+ground truth force mag (N): 2.9612494
+load cell data (N): 4.0
+
+Block
+FT prediction: [-1.4917991  -0.80671906 -0.74707496  0.265059   -0.168539    0.020892  ]
+FT ground truth: [-1.3835341 -1.536954  -3.313869   0.357189  -0.441833   0.009922 ]
+predicted force mag (N): 1.8532084
+ground truth force mag (N): 3.9061646
+load cell data (N): 3.998
+
+Metal plate
+
+FT prediction: [-1.801322   -0.39522493 -2.142393    0.29583102 -0.24038002  0.014479  ]
+FT ground truth: [-1.5927639  -1.4255711  -3.355001    0.31084198 -0.504299    0.013363  ]
+predicted force mag (N): 2.8268025
+ground truth force mag (N): 3.9780877
+load cell data (N): 3.994
+
+Nothing
+FT prediction: [-2.11242   -1.0745649 -2.226838   0.438113  -0.218484  -0.03629  ]
+FT ground truth: [-1.7950319 -2.2325401 -5.249944   0.522587  -0.595351   0.01539  ]
+predicted force mag (N): 3.252048
+ground truth force mag (N): 5.9806595
+load cell data (N): 6.007
+
+Plate
+
+FT prediction: [-0.726506   -0.17061907 -0.630497    0.294501   -0.105489    0.020364  ]
+FT ground truth: [-1.726315   -2.101207   -5.2250433   0.49112302 -0.56396806  0.015442  ]
+predicted force mag (N): 0.97695863
+ground truth force mag (N): 5.8903575
+load cell data (N): 6.009
+
+Rag
+FT prediction: [-3.1299992  -0.86740303 -5.923336    0.381785   -0.557245    0.01189   ]
+FT ground truth: [-1.8534901 -2.268003  -5.127884   0.51748   -0.602643   0.023153 ]
+predicted force mag (N): 6.7553825
+ground truth force mag (N): 5.90546
+load cell data (N): 6.009
+
+Block
+
+FT prediction: [-1.8780177  -0.85255    -0.94205105  0.30273297 -0.324446    0.04449   ]
+FT ground truth: [-1.976597  -2.4801989 -4.83644    0.584153  -0.654587   0.013593 ]
+predicted force mag (N): 2.267433
+ground truth force mag (N): 5.783552
+load cell data (N): 5.996
+
+Metal plate
+
+FT prediction: [-2.168758  -1.856883  -2.9143229  0.498133  -0.207038   0.028404 ]
+FT ground truth: [-1.881804  -2.667547  -4.7724667  0.637577  -0.62766    0.015757 ]
+predicted force mag (N): 4.079804
+ground truth force mag (N): 5.782165
+load cell data (N): 5.993
+
+Nothing
+FT prediction: [-1.4550209  -0.2542658  -1.009896    0.06980202 -0.26786304 -0.082354  ]
+FT ground truth: [-2.310471 -3.206682 -6.585262  0.747623 -0.79834   0.018728]
+predicted force mag (N): 1.7893091
+ground truth force mag (N): 7.680284
+load cell data (N): 8.005
+
+Plate
+FT prediction: [-0.97649884 -1.3961611  -1.453261    0.337691   -0.03736299  0.012293  ]
+FT ground truth: [-2.289954 -2.81208  -6.294177  0.673102 -0.762793  0.018568]
+predicted force mag (N): 2.2393713
+ground truth force mag (N): 7.2641826
+load cell data (N): 7.994
+
+Rag
+FT prediction: [-3.2840173e+00 -1.5022290e+00 -7.0516820e+00  4.1391701e-01
+ -4.7885302e-01 -8.3199888e-04]
+FT ground truth: [-2.263544  -2.9074302 -6.156307   0.663955  -0.748295   0.028851 ]
+predicted force mag (N): 7.9226055
+ground truth force mag (N): 7.174741
+load cell data (N): 8.001
+
+Block
+FT prediction: [-2.6110988  -1.953443   -2.697491    0.478776   -0.35153702  0.021172  ]
+FT ground truth: [-2.714476   -3.489657   -6.093137    0.80624104 -0.9064509   0.013896  ]
+predicted force mag (N): 4.2320485
+ground truth force mag (N): 7.5281076
+load cell data (N): 8.005
+
+Metal plate
+
+FT prediction: [-2.988866   -1.6619849  -3.762068    0.509227   -0.41875303  0.021887  ]
+FT ground truth: [-2.517674 -3.230978 -6.147876  0.737641 -0.843135  0.019222]
+predicted force mag (N): 5.084159
+ground truth force mag (N): 7.38744
+load cell data (N): 8.006
+
+Nothing
+
+FT prediction: [-4.0148802e+00 -2.4860358e+00 -3.1162660e+00  6.9022197e-01
+ -6.4042300e-01  3.0779988e-03]
+FT ground truth: [-2.920042 -4.097618 -8.038209  0.940957 -0.996154  0.024291]
+predicted force mag (N): 5.6578045
+ground truth force mag (N): 9.483138
+load cell data (N): 9.997
+
+Plate
+
+FT prediction: [-3.109657   -3.429661   -3.34824     0.810807   -0.41132998  0.061146  ]
+FT ground truth: [-2.9026942  -4.110557   -8.391976    0.97305405 -0.9892      0.014699  ]
+predicted force mag (N): 5.713427
+ground truth force mag (N): 9.785069
+load cell data (N): 9.994
+
+Rag
+
+FT prediction: [-3.905029  -2.1838698 -6.4705496  0.611563  -0.68811    0.018616 ]
+FT ground truth: [-2.5810714 -3.569186  -7.730591   0.825017  -0.863977   0.027356 ]
+predicted force mag (N): 7.866801
+ground truth force mag (N): 8.897363
+load cell data (N): 9.992
+
+Block 
+
+FT prediction: [-3.5538542 -2.4642038 -3.169005   0.767062  -0.532992   0.007926 ]
+FT ground truth: [-3.315087  -4.609946  -7.75707    1.031714  -1.1361259  0.021831 ]
+predicted force mag (N): 5.3614154
+ground truth force mag (N): 9.613196
+load cell data (N): 10.007
+
+Metal plate
+
+FT prediction: [-3.777238 -2.911136 -3.984246  0.738917 -0.528919  0.039109]
+FT ground truth: [-3.1794877 -4.725918  -7.4850497  1.053407  -1.0724559  0.042795 ]
+predicted force mag (N): 6.214214
+ground truth force mag (N): 9.405818
+load cell data (N): 10.006
+FT prediction: [ 0.22307014 -0.217956    0.284454    0.109089    0.11556299 -0.000585  ]
+FT ground truth: [-0.78758216 -0.44560897 -1.8100979   0.101781   -0.224216    0.007281  ]
+predicted force mag (N): 0.42211276
+ground truth force mag (N): 2.0236866
+load cell data (N): 1.999
+
+FT prediction: [ 0.1439519   0.38036802  0.104918   -0.003202    0.014658   -0.011614  ]
+FT ground truth: [-0.60228014 -0.35622203 -1.816912    0.092363   -0.18724501  0.005772  ]
+predicted force mag (N): 0.42001164
+ground truth force mag (N): 1.946999
+load cell data (N): 1.996
+
+FT prediction: [-9.1251969e-02  4.6279499e-01  1.6051495e-01 -2.4634998e-02
+  4.4499338e-04  2.0951001e-02]
+FT ground truth: [-0.54230404 -0.348678   -1.642872    0.086971   -0.17908001  0.003331  ]
+predicted force mag (N): 0.49826816
+ground truth force mag (N): 1.7648507
+load cell data (N): 2.002
+
+FT prediction: [-0.34259808 -0.709501    0.01431102  0.010219    0.00528599 -0.008185  ]
+FT ground truth: [-0.5888212 -0.4802971 -1.917923   0.104303  -0.181063   0.005976 ]
+predicted force mag (N): 0.78801644
+ground truth force mag (N): 2.062965
+load cell data (N): 2.007
+
+FT prediction: [ 0.1305641  -0.580991    0.232898    0.02272     0.04223101 -0.029768  ]
+FT ground truth: [-0.603436   -0.48645806 -2.019952    0.112295   -0.181282    0.008216  ]
+predicted force mag (N): 0.63940525
+ground truth force mag (N): 2.1635578
+load cell data (N): 2.002
+
+FT prediction: [ 0.15992999 -1.333976   -0.12647599  0.170721    0.04972801 -0.026414  ]
+FT ground truth: [-1.0886669  -1.1604581  -3.861794    0.265282   -0.35431498  0.011323  ]
+predicted force mag (N): 1.3494687
+ground truth force mag (N): 4.176759
+load cell data (N): 4.002
