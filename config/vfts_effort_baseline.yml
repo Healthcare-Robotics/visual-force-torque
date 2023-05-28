@@ -1,0 +1,53 @@
+TRAIN_FOLDER: [data/final_dataset_held_out_tasks/train]
+
+TEST_FOLDER: [data/final_dataset_held_out_tasks/test]
+
+NUM_EPOCHS: 20
+
+EPOCH_SCALE: 0.125
+
+BATCH_SIZE: 32
+
+LEARNING_RATE: 0
+LR_DECAY_STEP: 20
+LR_DECAY_RATE: 1
+
+MOMENTUM: 0.99
+
+WEIGHT_DECAY: 0  # set to zero to turn off
+
+DROPOUT: 0.0 # set to zero to turn off
+
+USE_GPU: True
+
+MODEL_DIR: ./checkpoints
+
+TRANSFORM: [none]
+
+NUM_WORKERS: 12
+
+MODEL_NAME: resnet18
+
+THAWED_LAYERS: 0
+
+INPUT_SIZE: 224
+
+PIXEL_MEAN:
+  - 0.49018741
+  - 0.47987018
+  - 0.50084844
+
+PIXEL_STD:
+  - 0.4266059
+  - 0.44422771
+  - 0.40737826
+
+LOSS_RATIO: 5.600968717041305
+
+ROBOT_STATES: [lift_effort, arm_effort, roll_effort, pitch_effort, yaw_effort, gripper_effort]
+
+NORMALIZE_GRIP: True
+
+GRIP_POS_IN_IMG: False
+
+SCALE_FT: 1.0
