@@ -8,9 +8,7 @@ Visual Force/Torque Sensing (VFTS) estimates forces and torques on a robotic gri
 
 ![alt text](https://github.com/jeremy-collins/visual-force-torque/blob/main/assets/Headliner.png "Visual Force/Torque Sensing")
 
-## Setup
-
-### Machine
+## Installation
 - Clone the repo on your PC and robot.
 - Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) if you haven't done so already.
 - Create a virtual environment:
