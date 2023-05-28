@@ -1,23 +1,44 @@
-# visual-force-torque
-Estimating the forces and torques applied to a soft robotic gripper using a gripper-mounted camera.
+# Visual Force/Torque Sensing
+
+[Paper](https://arxiv.org/abs/2210.00051) | [Video](https://www.youtube.com/watch?v=x0V3p6EUj1s) | [Dataset/Models](https://1drv.ms/f/s!AjebifpxoPl5hOBB-a_D69ip7IxMXQ?e=Co2k2a)
+
+**Can we replace a $6000 force/torque sensor with a $60 USB camera?**
+
+Visual Force/Torque Sensing (VFTS) estimates forces and torques on a robotic gripper from a single RGB image.
+
+![alt text](https://github.com/jeremy-collins/visual-force-torque/blob/main/assets/Headliner.png "Visual Force/Torque Sensing")
 
 ## Setup
-### Force-Torque Sensor ([ATI Mini45](https://www.ati-ia.com/products/ft/ft_models.aspx?id=mini45))
-- In network settings, Set IPv4 Method to manual
-- Set IPv4 address to 192.168.1.100 and IPv4 netmask to 255.255.255.0
-- Go to 192.168.1.1 in browser
-- After cloning the repo on the robot, run /robot/level_robot.py to level the gripper
-- Press "Snapshot" on the left side of the screen, then press the "bias" button to zero out the force-torque readings
 
 ### Machine
-- Clone the repo on your pc
-- Install Miniconda if you haven't done so already
-- Create a virtual environment from the yaml file by running `conda env create -n rp_ft --file rp_ft.yml python=3.9`
-- Verify the robot and pc are on the same network and that the IPs match the ones in /robot/zmq_client.py
-- Install pip with the command `conda install pip`
-- Install pip packages with the command `pip install pyyaml keyboard opencv-contrib-python tqdm pyzmq open3d`
-- Navigate to /DynamixelSDK/python and type `pip install -e .`
+- Clone the repo on your PC and robot.
+- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) if you haven't done so already.
+- Create a virtual environment:
+```bash
+conda env create -n rp_ft --file rp_ft.yml python=3.9
+```
+- Verify the robot and pc are on the same network and that the IPs match those in `/robot/zmq_client.py`
+- Install pip packages:
+```bash
+pip install pyyaml keyboard opencv-contrib-python tqdm pyzmq open3d`
+```
+
+### [ATI Mini45](https://www.ati-ia.com/products/ft/ft_models.aspx?id=mini45) Force-Torque Sensor Setup (Tested on Ubuntu 20.04)
+- In network settings, Set IPv4 Method to manual.
+- Set IPv4 address to 192.168.1.100 and IPv4 netmask to 255.255.255.0.
+- Go to 192.168.1.1 in browser.
+- After cloning the repo on the robot, run /robot/level_robot.py to level the gripper.
+- Press "Snapshot" on the left side of the screen, then press the "bias" button to zero out the force-torque readings.
+- Hardware for mounting the force/torque sensor and camera can be found [here](https://1drv.ms/f/s!AjebifpxoPl5hOBB-a_D69ip7IxMXQ?e=Co2k2a) and [here](https://hello-robot.com/stretch-teleop-kit).
+- Refer to this [manual](https://www.ati-ia.com/app_content/documents/9620-05-NET%20FT.pdf) for more implementation details.
+
 
 ## Live model and demos
-- `python -m prediction.live_model --config <config name> --index <checkpoint index> --epoch <epoch> --live True --view True`
-- Same arguments for demos
+```bash
+python -m prediction.live_model --config vfts_final_model --live True --view True
+python -m demos.clean_curved_surface --config vfts_final_model --live True --view True
+python -m demos.clean_manikin --config vfts_final_model --live True --view True
+python -m demos.collision_detector --config vfts_final_model --live True --view True
+python -m demos.handover --config vfts_final_model --live True --view True
+python -m demos.make_bed --config vfts_final_model --live True --view True
+```
